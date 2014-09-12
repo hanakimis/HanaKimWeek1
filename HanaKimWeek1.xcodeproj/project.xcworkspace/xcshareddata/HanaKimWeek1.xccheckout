@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0C70DFE-C1F5-4409-A27F-D9ABD8CA0F28</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HanaKimWeek1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45CBA4905A2C090447FD7660D3F6D1E3999154BA</key>
+		<string>github.com:hanakimis/HanaKimWeek1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HanaKimWeek1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45CBA4905A2C090447FD7660D3F6D1E3999154BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:hanakimis/HanaKimWeek1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45CBA4905A2C090447FD7660D3F6D1E3999154BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45CBA4905A2C090447FD7660D3F6D1E3999154BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HanaKimWeek1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
