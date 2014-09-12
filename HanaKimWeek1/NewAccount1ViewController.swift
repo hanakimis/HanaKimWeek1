@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  NewAccount1ViewController.swift
 //  HanaKimWeek1
 //
 //  Created by Hana Kim on 9/11/14.
@@ -8,18 +8,13 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController, UIScrollViewDelegate {
+class NewAccount1ViewController: UIViewController {
+    @IBOutlet weak var welcomeGoBack: UIButton!
 
-    @IBOutlet weak var settingsScrollView: UIScrollView!
-    @IBOutlet weak var settingsImage: UIImageView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let imageSize = settingsImage.image?.size
-        
-        settingsScrollView.contentSize = imageSize!
-        settingsScrollView.delegate = self
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,6 +23,9 @@ class SettingsViewController: UIViewController, UIScrollViewDelegate {
     }
     
 
+    @IBAction func welcomeGoBackClick(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

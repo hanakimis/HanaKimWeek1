@@ -16,6 +16,8 @@
 		8029AE4419C27EB3000D5743 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE4319C27EB3000D5743 /* CreateAccountRootViewController.swift */; };
 		8029AE4619C28A9E000D5743 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE4519C28A9E000D5743 /* TermsViewController.swift */; };
 		8029AE4819C2A902000D5743 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE4719C2A902000D5743 /* SettingsViewController.swift */; };
+		8029AE4A19C2B16D000D5743 /* NewAccount1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE4919C2B16D000D5743 /* NewAccount1ViewController.swift */; };
+		8029AE4C19C2BDF3000D5743 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE4B19C2BDF3000D5743 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		8029AE4319C27EB3000D5743 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		8029AE4519C28A9E000D5743 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		8029AE4719C2A902000D5743 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8029AE4919C2B16D000D5743 /* NewAccount1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccount1ViewController.swift; sourceTree = "<group>"; };
+		8029AE4B19C2BDF3000D5743 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				8029AE2319C1ABF1000D5743 /* AppDelegate.swift */,
 				8029AE2519C1ABF1000D5743 /* ViewController.swift */,
 				8029AE2719C1ABF1000D5743 /* Main.storyboard */,
+				8029AE4B19C2BDF3000D5743 /* ForgotPasswordViewController.swift */,
+				8029AE4919C2B16D000D5743 /* NewAccount1ViewController.swift */,
 				8029AE4719C2A902000D5743 /* SettingsViewController.swift */,
 				8029AE4519C28A9E000D5743 /* TermsViewController.swift */,
 				8029AE4319C27EB3000D5743 /* CreateAccountRootViewController.swift */,
@@ -222,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8029AE4419C27EB3000D5743 /* CreateAccountRootViewController.swift in Sources */,
+				8029AE4C19C2BDF3000D5743 /* ForgotPasswordViewController.swift in Sources */,
+				8029AE4A19C2B16D000D5743 /* NewAccount1ViewController.swift in Sources */,
 				8029AE2619C1ABF1000D5743 /* ViewController.swift in Sources */,
 				8029AE4619C28A9E000D5743 /* TermsViewController.swift in Sources */,
 				8029AE4819C2A902000D5743 /* SettingsViewController.swift in Sources */,
