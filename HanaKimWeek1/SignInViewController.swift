@@ -22,7 +22,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func WelcomeFromSignIn(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+        navigationController!.popViewControllerAnimated(true)
     }
 
     /*

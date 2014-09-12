@@ -24,7 +24,7 @@ class NewAccount1ViewController: UIViewController {
     
 
     @IBAction func welcomeGoBackClick(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+        navigationController!.popViewControllerAnimated(true)
     }
     /*
     // MARK: - Navigation
