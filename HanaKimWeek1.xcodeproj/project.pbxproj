@@ -14,6 +14,7 @@
 		8029AE2E19C1ABF1000D5743 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8029AE2C19C1ABF1000D5743 /* LaunchScreen.xib */; };
 		8029AE3A19C1ABF1000D5743 /* HanaKimWeek1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE3919C1ABF1000D5743 /* HanaKimWeek1Tests.swift */; };
 		8029AE4419C27EB3000D5743 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE4319C27EB3000D5743 /* CreateAccountRootViewController.swift */; };
+		8029AE4619C28A9E000D5743 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8029AE4519C28A9E000D5743 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8029AE3819C1ABF1000D5743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8029AE3919C1ABF1000D5743 /* HanaKimWeek1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanaKimWeek1Tests.swift; sourceTree = "<group>"; };
 		8029AE4319C27EB3000D5743 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		8029AE4519C28A9E000D5743 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				8029AE2319C1ABF1000D5743 /* AppDelegate.swift */,
 				8029AE2519C1ABF1000D5743 /* ViewController.swift */,
 				8029AE2719C1ABF1000D5743 /* Main.storyboard */,
+				8029AE4519C28A9E000D5743 /* TermsViewController.swift */,
 				8029AE4319C27EB3000D5743 /* CreateAccountRootViewController.swift */,
 				8029AE2A19C1ABF1000D5743 /* Images.xcassets */,
 				8029AE2C19C1ABF1000D5743 /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				8029AE4419C27EB3000D5743 /* CreateAccountRootViewController.swift in Sources */,
 				8029AE2619C1ABF1000D5743 /* ViewController.swift in Sources */,
+				8029AE4619C28A9E000D5743 /* TermsViewController.swift in Sources */,
 				8029AE2419C1ABF1000D5743 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
