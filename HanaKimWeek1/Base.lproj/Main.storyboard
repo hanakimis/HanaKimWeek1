@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="mUL-3x-Ojw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4gB-pi-yiK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
@@ -244,7 +244,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="60n-KI-GQK">
-                                <rect key="frame" x="0.0" y="428" width="320" height="35"/>
+                                <rect key="frame" x="0.0" y="425" width="328" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -441,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4oN-LD-ima" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4658" y="1631"/>
+            <point key="canvasLocation" x="4282" y="1663"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="SEp-QX-0Kj">
@@ -462,7 +462,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brU-Pq-D98" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5100" y="1631"/>
+            <point key="canvasLocation" x="4724" y="1663"/>
         </scene>
         <!--Settings-->
         <scene sceneID="gzG-ah-4dA">
@@ -483,6 +483,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DVP-Jy-aGI">
                                         <rect key="frame" x="14" y="700" width="297" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="Su0-U8-RK5" kind="modal" modalTransitionStyle="crossDissolve" id="dZi-ie-CxQ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -497,7 +500,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ecz-eM-2Kc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5506" y="1631"/>
+            <point key="canvasLocation" x="5130" y="1663"/>
         </scene>
         <!--Files-->
         <scene sceneID="bD0-Pb-8mT">
@@ -518,7 +521,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6n-lf-Sdr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4264" y="1631"/>
+            <point key="canvasLocation" x="3888" y="1663"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="zFW-eR-Afi">
@@ -539,7 +542,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4sx-6p-aMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5397" y="936"/>
+            <point key="canvasLocation" x="4470" y="816"/>
         </scene>
         <!--Photos-->
         <scene sceneID="Emy-KE-tGS">
@@ -560,7 +563,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ewF-Pq-VwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1994" y="2277"/>
+            <point key="canvasLocation" x="2522" y="2669"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="Nfc-h8-7nv">
@@ -581,7 +584,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3C6-NZ-QDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2436" y="2277"/>
+            <point key="canvasLocation" x="2964" y="2669"/>
         </scene>
         <!--Settings-->
         <scene sceneID="LX6-7l-WOX">
@@ -599,6 +602,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="520"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lxY-Nt-nls">
+                                        <rect key="frame" x="0.0" y="700" width="320" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0uY-9o-f5C" kind="modal" modalTransitionStyle="crossDissolve" id="qs1-Mm-MX8"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -612,7 +625,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJF-gs-g1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2842" y="2277"/>
+            <point key="canvasLocation" x="3370" y="2669"/>
         </scene>
         <!--Files-->
         <scene sceneID="x9e-Ny-Ghg">
@@ -633,7 +646,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NXT-sl-05y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1600" y="2277"/>
+            <point key="canvasLocation" x="2128" y="2669"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Gnw-XO-HKE">
@@ -654,7 +667,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iln-Ih-uXn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2732" y="1602"/>
+            <point key="canvasLocation" x="2756" y="1602"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2Ki-qZ-DCA">
@@ -816,4 +829,8 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="dZi-ie-CxQ"/>
+        <segue reference="qs1-Mm-MX8"/>
+    </inferredMetricsTieBreakers>
 </document>
