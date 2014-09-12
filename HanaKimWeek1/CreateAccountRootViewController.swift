@@ -12,8 +12,8 @@ class CreateAccountRootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        performSegueWithIdentifier("createFlowAutoSegue", sender: self)
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
