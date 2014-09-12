@@ -413,7 +413,7 @@
         <!--Settings-->
         <scene sceneID="gzG-ah-4dA">
             <objects>
-                <viewController id="Dz8-Ti-BVk" sceneMemberID="viewController">
+                <viewController id="Dz8-Ti-BVk" customClass="SettingsViewController" customModule="HanaKimWeek1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JAB-LK-ok8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -432,6 +432,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="kzQ-gR-0XG"/>
+                    <connections>
+                        <outlet property="settingsImage" destination="Fe9-Qm-m92" id="8lJ-c3-ylt"/>
+                        <outlet property="settingsScrollView" destination="ijt-zM-UVD" id="NeH-d4-rgW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ecz-eM-2Kc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
