@@ -1,23 +1,19 @@
 //
-//  SettingsViewController.swift
+//  welcome2ViewController.swift
 //  HanaKimWeek1
 //
-//  Created by Hana Kim on 9/11/14.
+//  Created by Hana Kim on 16/09/2014.
 //  Copyright (c) 2014 Hana Kim. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class welcome2ViewController: UIViewController {
 
-    @IBOutlet weak var settingsScrollView: UIScrollView!
-    @IBOutlet weak var settingsImage: UIImageView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        settingsScrollView.contentSize = settingsImage.frame.size
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,6 +21,9 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func gestureSegue2(sender: AnyObject) {
+        performSegueWithIdentifier("toWelcome23", sender: self)
+    }
 
     /*
     // MARK: - Navigation
