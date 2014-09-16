@@ -1,26 +1,19 @@
 //
-//  SettingsViewController.swift
+//  welcome1ViewController.swift
 //  HanaKimWeek1
 //
-//  Created by Hana Kim on 9/11/14.
+//  Created by Hana Kim on 9/15/14.
 //  Copyright (c) 2014 Hana Kim. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: UIViewController, UIScrollViewDelegate {
+class welcome1ViewController: UIViewController {
 
-    @IBOutlet weak var settingsScrollView: UIScrollView!
-    @IBOutlet weak var settingsImage: UIImageView!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let imageSize = settingsImage.image?.size
-        
-        settingsScrollView.contentSize = imageSize! //settingsImage.frame.size
-        
-        settingsScrollView.delegate = self
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,6 +21,10 @@ class SettingsViewController: UIViewController, UIScrollViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+
+    @IBAction func nextScreen(sender: AnyObject) {
+        performSegueWithIdentifier("toWelcome12", sender: self)
+    }
 
     /*
     // MARK: - Navigation
