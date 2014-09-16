@@ -11,7 +11,6 @@ Completed user stories:
 
 Walkthrough of the user stories: 
 
-Inline-style: 
 ![alt text](https://github.com/hanakimis/HanaKimWeek1/blob/master/HanaWeek1.gif "Week 1 gif")
 
 Gif created with [LiceCap](http://www.cockos.com/licecap/)
